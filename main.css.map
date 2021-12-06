@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/style.css"],"names":[],"mappings":"AAAA;IACI,UAAU;IACV,SAAS;AACb;;AAEA;IACI,eAAe;IACf,KAAK;IACL,OAAO;AACX,C","file":"main.css","sourcesContent":["*{\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\n\r\n.webGL{\r\n    position: fixed;\r\n    top:0;\r\n    left: 0;\r\n}"],"sourceRoot":""}
