@@ -96,8 +96,23 @@ body{
     font-size: 3rem;
 }
 
+.material-icons::selection{
+    color: none;
+    background: none;
+}
+
 .bot:active{
     color: red;
+}
+
+.winner-prompt {
+    color:#FD5839;
+    font-size: 8rem;
+    position: absolute;
+    right: 10rem;
+    z-index: -1;
+    transform: translateY(-60rem);
+    transition: transform 1s;
 }
 
 
