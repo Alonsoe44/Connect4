@@ -70,7 +70,7 @@ body{
 
 .game-screen__menu{
     list-style-type: none; 
-    background-color: #fabc2a70;
+    background-color: #fabc2a63;
     border-radius: 3rem;
     margin-left: 5rem;
 }
@@ -83,13 +83,14 @@ body{
     width: 10rem;
 }
 
-.game-screen__buttom:hover{
-    color: white;
-    cursor: pointer;
-}
 
 .material-icons{
     font-size: 4rem;
+}
+
+.material-icons:hover{
+    color: white;
+    cursor: pointer;
 }
 
 .material-icons:active{
@@ -99,6 +100,10 @@ body{
 .material-icons::selection{
     color: none;
     background: none;
+}
+
+.bot:hover{
+    color: red;
 }
 
 .bot:active{
